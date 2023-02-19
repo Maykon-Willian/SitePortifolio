@@ -116,3 +116,45 @@ span{
 .about{
     background-color: rgb(0,0,0);
 }
+
+header.sticky{
+    padding: 10px 16%;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+    transition: .3s;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+} 
+.about-text h4{
+    margin: 0dvb10px 0;
+    color: #69680a;
+    font-size: 20px;
+    font-weight: 600;
+}   
+.about-text h2{
+    font-size: 40px;
+}
+.about-text p{
+    color: rgb(128, 120, 128);
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.about-gri{
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(250px, auto));
+    align-items: center;
+    gap: 1rem;
+}
+.about-in h5{
+    font-size: 22px;
+    font-weight: 600;
+}.about-img img{
+    height: auto;
+    width: 100%;
+    max-width: 460px;
+}
