@@ -205,3 +205,25 @@ header.sticky{
 .box :hover{
     color: #69680a;
 }
+
+    .portifolio-content{
+       
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 5rem;
+        
+    }   
+    .row img{
+        height: auto;
+        width: 100%;
+        border-radius: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .row{
+        padding: 25px;
+        background-color: #12141c;
+        border-radius: 0.5rem;
+        transition: all .40s ease;
+    }
