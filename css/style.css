@@ -120,7 +120,7 @@ span{
 header.sticky{
     padding: 10px 16%;
     background-color: #000000;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid  #1a1911;
     transition: .3s;
 }
 .about{
@@ -157,4 +157,51 @@ header.sticky{
     height: auto;
     width: 100%;
     max-width: 460px;
+}
+
+.main-text{
+    text-align: center;
+}
+.main-text h2{
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+.main-text h4{
+    color:  #69680a;
+    font-size: 25px;
+    font-weight: 600;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.box{
+    padding: 45px;
+    background: #12141c;
+    border-top: 5px solid transparent;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+.box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+    transition: all .40s ease;
+}
+.box p{
+    color: rgb(128, 120, 128) ;
+    font-size: var(--p-font);
+    line-height: 30px;
+}
+.services-content :hover{
+    transform: scale(1.05) translateY(-5px);
+    border-top: 3px solid #9f93b9;
+}
+.box :hover{
+    color: #69680a;
 }
