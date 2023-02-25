@@ -227,3 +227,26 @@ header.sticky{
         border-radius: 0.5rem;
         transition: all .40s ease;
     }
+    .main-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    .row h3{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .row h6{
+        color: rgb(187, 42, 216);
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .row-icon i{
+        font-size: 21px;
+    }
+    .row:hover{
+        transform: scale(1.05) translateY(-10px);
+        cursor: pointer;
+    }
